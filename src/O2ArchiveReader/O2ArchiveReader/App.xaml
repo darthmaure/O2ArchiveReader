@@ -1,0 +1,10 @@
+﻿<Application x:Class="O2ArchiveReader.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:O2ArchiveReader"
+             xmlns:converters="clr-namespace:O2ArchiveReader.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </Application.Resources>
+</Application>
